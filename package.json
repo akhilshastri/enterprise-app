@@ -16,5 +16,8 @@
   "license": "ISC",
   "volta": {
     "node": "18.16.0"
+  },
+  "dependencies": {
+    "prettier": "^2.8.8"
   }
 }

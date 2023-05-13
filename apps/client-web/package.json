@@ -10,11 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ag-grid-community/styles": "~29.3.3",
     "@emotion/react": "^11.10.8",
     "@mantine/carousel": "^6.0.9",
     "@mantine/core": "^6.0.9",
     "@mantine/dates": "^6.0.9",
     "@mantine/dropzone": "^6.0.9",
+    "@mantine/ds": "^6.0.9",
     "@mantine/form": "^6.0.9",
     "@mantine/hooks": "^6.0.9",
     "@mantine/modals": "^6.0.9",
@@ -23,14 +25,21 @@
     "@mantine/prism": "^6.0.9",
     "@mantine/spotlight": "^6.0.9",
     "@mantine/tiptap": "^6.0.9",
+    "@reduxjs/toolkit": "^1.9.5",
     "@tabler/icons-react": "^2.17.0",
     "@tiptap/extension-link": "^2.0.3",
     "@tiptap/react": "^2.0.3",
     "@tiptap/starter-kit": "^2.0.3",
+    "ag-grid-community": "~29.3.3",
+    "ag-grid-enterprise": "~29.3.3",
+    "ag-grid-react": "~29.3.3",
     "dayjs": "^1.11.7",
     "embla-carousel-react": "^7.1.0",
+    "lodash": "4.17.21",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-query": "^3.39.3",
+    "react-router-dom": "6.11.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
@@ -41,7 +50,7 @@
     "eslint": "^8.38.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.3.4",
-    "typescript": "^5.0.2",
+    "typescript": "^5.0.4",
     "vite": "^4.3.2"
   }
 }

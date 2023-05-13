@@ -1,9 +1,9 @@
-import { MantineProvider, Text } from '@mantine/core';
+import "ag-grid-community/styles/ag-grid.css";
+import "ag-grid-community/styles/ag-theme-alpine.css";
+
+import { Layout } from "./common/componenets/Layout/Layout";
+import { GridComponent } from "./common/componenets/GridComponent";
 
 export default function App() {
-    return (
-        <MantineProvider withGlobalStyles withNormalizeCSS>
-            <Text>Welcome to Mantine!</Text>
-        </MantineProvider>
-    );
+  return <Layout children={<GridComponent />} />;
 }
